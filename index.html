@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/giphy.css">
+    <title>MMA Gifs</title>
+</head>
+<style>
+</style>
+<body>
+    <div class="container main">
+        <div class="row fade-in">
+            <section class="col-md-12">
+                <div class="page-header">
+                    <h1>BJJ Giphy</h1></div>
+            </section>
+        </div>
+
+        <div class="row fade-in">
+            <section class="col-md-12">
+                <div class="panel">
+                    <br/>
+                   
+                    <div id="buttons" style="padding: 10px;"></div>
+                    <br/>
+                    <div class="form-group">
+                        <label class="control-label">Add your favorite bjj submission</label>
+                        <div class="input-group">
+                            <input class="form-control" id="button_text" type="text" placeholder="Armbar">
+                            <span>
+                <button id="add_button" class="btn btn-primary">Add Gifs</button>
+              </span>
+                        </div>
+                    </div>
+                    <br/>
+                    <div id="gifs" class="flex"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/api.js"></script>
+</body>
+
+</html>
